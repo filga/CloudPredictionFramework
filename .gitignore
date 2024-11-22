@@ -7,3 +7,9 @@ dist
 jupyter
 
 *.egg-info/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Jupyter notebook output files
+*.ipynb[._]

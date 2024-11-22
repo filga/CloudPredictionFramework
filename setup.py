@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="cloudplanner",
+    name="cloudpredictionframework",
     version="0.0.54",
     author="Fruktus",
     author_email="fruktusek@gmail.com",
     description="Cloud resource usage planner",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/fruktus/cloudplanner",
+    url="https://github.com/fruktus/cloudpredictionframework",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -23,7 +23,7 @@ setuptools.setup(
         'pykalman',
         'tensorflow',
         'pandas',
-        'sklearn',
+        'scikit-learn',
         'numpy'
     ]
 )

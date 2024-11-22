@@ -1,6 +1,6 @@
 from tensorflow import keras
 
-from cloudplanner.usage_prediction.networks.base_network import BaseNetworkModel
+from cloudpredictionframework.usage_prediction.networks.base_network import BaseNetworkModel
 
 
 class LSTM2Layer(BaseNetworkModel):
